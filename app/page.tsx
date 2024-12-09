@@ -1,10 +1,25 @@
-import Image from "next/image";
+
+import Header from "./components/Header";
+import HeroSection from "./components/HeroSection";
+import FeaturedProducts from "./components/FeaturedProduct";
+
+import Footer from "./components/Footer";
+import LatestProducts from "./components/LatestProducts";
+import ShopexOffer from "./components/ShopeOffer";
+import UniqueFeature from "./components/UniqueFeature";
+import TrendingProducts from "./components/TrendingProducts";
 
 export default function Home() {
   return (
-    <main className="flex text-center h-screen justify-center flex-col items-center ">
-      <h1>Hello World</h1>
-      <h1>Hacking kese karte hain Hacking</h1>
-    </main>
+    <>
+      <Header />
+      <HeroSection />
+      <FeaturedProducts />
+      <LatestProducts />
+      <ShopexOffer />
+      <UniqueFeature />
+      <TrendingProducts />
+      <Footer />
+    </>
   );
 }
