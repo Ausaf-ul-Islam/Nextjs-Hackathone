@@ -10,7 +10,7 @@ const HeroSection = () => {
       {/* Background Image Positioned at Left */}
       <div className="absolute top-0 left-0 z-[1] w-[300px] h-[200px]">
         <Image
-          src="/HeroImage-1.png" // Replace with actual background image path
+          src="/heroImage-1.png" // Replace with actual background image path
           alt="Background"
           layout="fill"
           objectFit="cover"
@@ -41,7 +41,7 @@ const HeroSection = () => {
         {/* Right Side: Image Section */}
         <div className="md:w-1/2 flex justify-center md:justify-end w-full relative">
           <Image
-            src="/sofapromotionalheader.png" // Replace with actual image path
+            src="/heroImage-2.png" 
             alt="Furniture"
             width={400}
             height={400}
